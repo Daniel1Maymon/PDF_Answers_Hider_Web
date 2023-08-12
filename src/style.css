@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background: #333;
+    color: hsl(200, 100%, 90%);
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* Adjust the value to your desired spacing */
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25em;
+    border-color: hsl(200, 100%, 50%);
+    border-style: solid;
+    /* Horizontally center */
+    /* justify-content: center; */
+    /* Vertically center */
+    align-items: center;
+
+}
+
+.description {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    border-radius: 0.25em;
+    border-color: hsl(200, 100%, 50%);
+    border-style: solid;
+    text-align: center;
+    margin: 0.25em;
+}
+
+button {
+    padding: 24px 32px;
+    /* width: 15em; */
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.FileButton {
+    /* padding: 24px 32px; */
+    /* width: 15em; */
+    display: flex;
+    font-size: 22px;
+    border-radius: 0.25em;
+    border-color: hsl(200, 100%, 50%);
+    border-style: solid;
+    /* margin: 0 auto; */
+}
