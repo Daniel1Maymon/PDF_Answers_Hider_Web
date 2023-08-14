@@ -15,9 +15,11 @@ function MainPage(){
             <DescriptionComponent />
             <FileExplorerButton />
 
-            <button onClick={() => {
+            {
+            /* <button onClick={() => {
                 navigate("/FilePage")
-            }}>Click for Login Page</button>
+            }}>Click for Login Page</button> */
+            }
         </div>
     )
 }

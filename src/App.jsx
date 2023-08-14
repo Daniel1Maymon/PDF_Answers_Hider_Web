@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route exact path="/" Component={MainPage} />
           <Route exact path="/FilePage" Component={ChosenFilePage} />
-          <Route exact path="/profile" Component={Profile} />
+
         </Routes>
       </ChosenFileContext.Provider>
     </BrowserRouter>

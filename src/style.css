@@ -19,14 +19,19 @@ body {
     /* Adjust the value to your desired spacing */
 }
 
+/* .title,
+.description,
+.FileButton {
+    border-radius: 0.25em;
+    border-color: hsl(200, 100%, 50%);
+    border-style: solid;
+} */
+
 .title {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     /* padding: 0.25em 0.5em; */
-    border-radius: 0.25em;
-    border-color: hsl(200, 100%, 50%);
-    border-style: solid;
     /* Horizontally center */
     /* justify-content: center; */
     /* Vertically center */
@@ -40,13 +45,10 @@ body {
     /* align-items: center; */
     /* justify-content: center; */
     /* flex-direction: column; */
-    border-radius: 0.25em;
-    border-color: hsl(200, 100%, 50%);
-    border-style: solid;
     text-align: center;
     /* margin: 0.25em; */
     margin-top: -15px;
-    
+
 }
 
 button {
@@ -61,8 +63,5 @@ button {
     /* width: 15em; */
     display: flex;
     font-size: 22px;
-    border-radius: 0.25em;
-    border-color: hsl(200, 100%, 50%);
-    border-style: solid;
     /* margin: 0 auto; */
 }

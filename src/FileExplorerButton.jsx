@@ -44,9 +44,10 @@ function FileExplorerButton() {
 
     return (
         <div className='FileButton'>
-            <button onClick={handleButtonClick}>Open File Explorer</button>
+            <button onClick={handleButtonClick}>Choose a PDF to upload</button>
             <input
                 type="file"
+                accept='.pdf'
                 ref={fileInputRef}
                 style={{
                     display: 'none',
