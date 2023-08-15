@@ -1,6 +1,9 @@
 import React, { useContext } from "react";
-import { Document, Page } from "react-pdf";
+import { Page, Text, Image,Document, StyleSheet } from "@react-pdf/renderer";
 import { ChosenFileContext } from './App'
+
+
+
 
 function PDFCover() {
     const { chosenFile, setChosenFile } = useContext(ChosenFileContext);
@@ -11,11 +14,13 @@ function PDFCover() {
 
     return (
         <div className="pdf-cover">
-            {console.log(`::PDFCover::  = `)}
+            {/* {console.log(`::PDFCover::  = `)}
             {console.log(chosenFile)}
             <Document file={URL.createObjectURL(chosenFile)}>
                 <Page pageNumber={1} />
-            </Document>
+            </Document> */}
+        
+        
         </div>
     )
 }

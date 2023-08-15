@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ChosenFileContext } from '../App'
 import RemoveAnswersBtn from '../RemoveAnswersBtn'
 import PDFCover from '../PDFCover'
+import PDFFile from "../components/PDFFile.jsx";
 
 
 function ChosenFilePage() {
@@ -12,17 +13,17 @@ function ChosenFilePage() {
     return (
         <>
             <div>
-                Inside FilePage
+                {/* Inside FilePage */}
+                {<p>File Name: {chosenFile?.name}</p>}
             </div>
-
-            <div>
-                <PDFCover/>
-            </div>
+            <PDFFile />
             <div>
                 {/* Display the selected file's name if available */}
                 {console.log(`::FilePage::  = `)}
                 {console.log(chosenFile)}
-                {<p>Selected File: {chosenFile?.name}</p>}
+                
+                <PDFCover />
+                
                 <RemoveAnswersBtn/>
             </div>
 

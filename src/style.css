@@ -63,5 +63,66 @@ button {
     /* width: 15em; */
     display: flex;
     font-size: 22px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
+
+.chosen-pdf-cover {
+    /* border-color: hsl(108, 99%, 48%); */
+    border-style: solid;
+    border-width: 10px;
+    /* background-color: aqua; */
+    color: transparent;
+
+
+}
+
+.react-pdf__Page {
+    /* border-color: hsl(0, 100%, 50%); */
+    border-style: solid;
+    border-width: 20px;
+    /* background-color: rgb(255, 0, 0); */
+    /* Allow height to adjust automatically based on aspect ratio */
+    /* margin: 0; */
+    /* Remove any margin that could affect sizing */
+    /* padding: 0; */
+    /* display: contents; */
+    /* max-width: none; */
+    width: 400px;
+    /* height: auto; */
+}
+
+.pdf-document .react-pdf__Page__textContent,
+.pdf-document .react-pdf__Page__annotations {
+    display: none;
+
+}
+
+.react-pdf__Page.react-pdf__Page {
+    /* background-color: transparent; */
+    border-style: solid;
+    border-width: 10px;
+}
+
+
+.pdf-document .react-pdf__Page {
+    background-color: transparent !important;
+    /* border-color: hsl(0, 100%, 50%); */
+    border-style: solid;
+    border-width: 10px;
+    padding-left: 5em;
+
+}
+
+.react-pdf__Page__canvas {
+    height: auto !important;
+    width: 50% !important;
+    border-radius: 0.25em;
+    border-color: hsl(200, 100%, 50%);
+    border-style: solid;
+
+}
+
+/* .react-pdf__Document .pdf-document {
+    display: grid;
+    align-items: center;
+} */
