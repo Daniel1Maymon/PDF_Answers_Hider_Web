@@ -60,13 +60,8 @@ git push origin feature/your-feature-name
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
-
-- Thanks to [Author's Name] for inspiration and guidance.
-- Icons provided by [Icon Source].
-
 ## Contact
 
-For any questions or inquiries, feel free to contact us at [your-email@example.com].
+For any questions or inquiries, feel free to contact us at [daniel1maymon@gmail.com].
 
 Happy PDF Cleaning!
