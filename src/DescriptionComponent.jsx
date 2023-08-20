@@ -1,5 +1,6 @@
 
 function DescriptionComponent() {
+    console.log(":: DescriptionComponent is render ::");
     return (
         <>
             <div className="description">

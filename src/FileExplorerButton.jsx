@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 // FileExplorerButton is a component return JSX
 function FileExplorerButton() {
+    console.log(":: FileExplorerButton is render ::");
 
     //  useRef - The useRef hook returns a mutable object with a current property that holds the DOM element.
     const fileInputRef = useRef(null);

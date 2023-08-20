@@ -7,6 +7,8 @@ import PDFFile from "../components/PDFFile.jsx";
 
 
 function ChosenFilePage() {
+    console.log(":: ChosenFilePage is render ::");
+
     let navigate = useNavigate();
     const { chosenFile } = useContext(ChosenFileContext);
 

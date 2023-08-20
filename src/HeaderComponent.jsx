@@ -1,4 +1,5 @@
 function HeaderComponent() {
+    console.log(":: HeaderComponent is render ::");
     return (
         <>
             <div className="title">

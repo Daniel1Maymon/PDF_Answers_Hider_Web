@@ -8,21 +8,12 @@ import { useNavigate } from "react-router-dom";
 
 
 function MainPage() {
+    console.log(":: MainPage is render ::");
     let navigate = useNavigate();
 
 
     return (
         <div className="app-container">
-            {/* <PDFDownloadLink
-                // document={<PDFFile />}
-                filename="FORM"
-            >
-                {
-                    ({ loading }) => (loading ? <button>Loading Document...</button> : <button>Download</button>)
-                }
-
-            </PDFDownloadLink> */}
-
            
             <HeaderComponent />
             <DescriptionComponent />
